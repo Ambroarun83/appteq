@@ -1,0 +1,94 @@
+.sidebar {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.content {
+    padding: 20px;
+}
+
+.leftbar {
+    padding: 0;
+}
+
+.page-link {
+    padding: 7px 1.355em;
+}
+
+.form-control,
+.input-group-text,
+.page-link {
+    border-radius: 0px !important;
+}
+
+.form-control {
+    border-right: none !important;
+}
+
+.input-group-text {
+    border-left: none !important;
+    color: rgb(139, 139, 139);
+}
+
+.page-link:focus {
+    border: none;
+}
+
+.order-sell {
+    background-color: #fde4e8;
+    color: red;
+    padding: 2px 8px 3px 8px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.order-buy {
+    background-color: rgb(232, 232, 247);
+    color: blue;
+    padding: 2px 8px 3px 8px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+table {
+    font-size: 15px;
+}
+
+table thead {
+    font-weight: 500;
+}
+
+.total-container {
+    padding-left: 10em !important;
+}
+
+.bottom-report td {
+    background: rgb(230, 228, 228);
+}
+
+.bottom-report td span span.fw-bold {
+    padding: 0 10px 0 5px;
+}
+
+.bottom-report td span.topics {
+    padding: 0 10px 0 10px;
+}
+
+.bi,
+.topics {
+    cursor: pointer;
+}
+
+.footer-text {
+    text-align: center;
+    color: rgb(143, 141, 141) !important;
+}
+
+.btn-gp .btn {
+    background-color: rgb(230, 228, 228);
+    border-radius: 0px;
+    margin-right: 2px;
+    font-size: small;
+}

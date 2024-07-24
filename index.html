@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appteq</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar border-end">
+                <div class="position-sticky row">
+                    <div class="menubar col-md-2 container d-flex flex-column justify-content-between align-items-center border-end"
+                        style="height: 100vh;padding-top: 64px;">
+                        <div class="d-flex flex-column border-top">
+                            <i class="bi bi-bookmark border-bottom border-3 p-3"></i>
+                            <i class="bi bi-graph-up border-bottom border-3 p-3"></i>
+                            <i class="bi bi-briefcase border-bottom border-3 p-3"></i>
+                            <i class="bi bi-clock-history border-bottom border-3 p-3"></i>
+                            <i class="bi bi-code-slash border-bottom border-3 p-3"></i>
+                            <i class="bi bi-people-fill border-bottom border-3 p-3"></i>
+                            <i class="bi bi-currency-dollar border-bottom border-3 p-3"></i>
+                            <i class="bi bi-bank border-bottom border-3 p-3"></i>
+                            <i class="bi bi-mortarboard border-bottom border-3 p-3"></i>
+                            <i class="bi bi-person-rolodex border-bottom border-3 p-3"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <i class="bi bi-list-ul p-3"></i>
+                        </div>
+                    </div>
+                    <div class="leftbar col-md-10 container table-container d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="d-flex justify-content-evenly align-items-center pb-2 pt-2 ">
+                                <span class='border-end' style="padding-right: 50px;">XAUUSD <br><small
+                                        class='text-primary'>$2324.16</small></span>
+                                <span class='ps-2'>BTCUSD <br><small class='text-primary'>$65610.65</small></span>
+                            </div>
+                            <div>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control bg-light "
+                                        placeholder="Search eg: EUR/USD, BTC">
+                                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-evenly pt-2 ">
+                                <span class="topics border-bottom border-primary border-2 p-2">Favorites</span>
+                                <span class="topics border-bottom p-2">All Symbols</span>
+                            </div>
+                            <div class="tab-content" style="position: relative;">
+                                <div class="tab-pane fade show active">
+                                    <table class="table table-hover">
+                                        <tbody>
+                                            <tr>
+                                                <td>BTCUSD<br><small class='text-muted'>L:123</small></td>
+                                                <td class='text-primary'>65610.65<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                                <td class='text-danger'>-1.57%<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>AUDCAD<br><small class='text-muted'>L:123</small></td>
+                                                <td class='text-primary'>0.90669<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                                <td class='text-danger'>-0.16%<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>BTCUSD<br><small class='text-muted'>L:123</small></td>
+                                                <td class='text-primary'>65610.65<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                                <td class='text-danger'>-1.57%<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>AUDCAD<br><small class='text-muted'>L:123</small></td>
+                                                <td class='text-primary'>0.90669<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                                <td class='text-danger'>-0.16%<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>BTCUSD<br><small class='text-muted'>L:123</small></td>
+                                                <td class='text-primary'>65610.65<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                                <td class='text-danger'>-1.57%<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>AUDCAD<br><small class='text-muted'>L:123</small></td>
+                                                <td class='text-primary'>0.90669<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                                <td class='text-danger'>-0.16%<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>BTCUSD<br><small class='text-muted'>L:123</small></td>
+                                                <td class='text-primary'>65610.65<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                                <td class='text-danger'>-1.57%<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>AUDCAD<br><small class='text-muted'>L:123</small></td>
+                                                <td class='text-primary'>0.90669<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                                <td class='text-danger'>-0.16%<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>BTCUSD<br><small class='text-muted'>L:123</small></td>
+                                                <td class='text-primary'>65610.65<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                                <td class='text-danger'>-1.57%<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>AUDCAD<br><small class='text-muted'>L:123</small></td>
+                                                <td class='text-primary'>0.90669<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                                <td class='text-danger'>-0.16%<br><small
+                                                        class='text-muted'>L:123</small>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-end align-content-end">
+                            <nav>
+                                <ul class="pagination mb-1">
+                                    <li class="page-item"><a class="page-link text-bg-light" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link text-bg-light" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link text-bg-light" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link text-bg-light" href="#">4</a></li>
+                                    <li class="page-item"><a class="page-link text-bg-light" href="#">5</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <main class="col-md-10 ms-sm-auto col-lg-10 px-md-4 content">
+                <div
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+                    <h3>Positions (5)</h3>
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-gp me-2">
+                            <button type="button" class="btn btn-sm">Cancel all orders</button>
+                            <button type="button" class="btn btn-sm">Cancel limit
+                                order(s)</button>
+                            <button type="button" class="btn btn-sm">Cancel stop order(s)</button>
+                            <button type="button" class="btn btn-sm">Close all positions</button>
+                            <button type="button" class="btn btn-sm">Close profitable
+                                position(s)</button>
+                            <button type="button" class="btn btn-sm">Close losing
+                                position(s)</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <td>ID</td>
+                                <td>TIME</td>
+                                <td>SYMBOL</td>
+                                <td>ORDER</td>
+                                <td>LOT</td>
+                                <td>PRICE</td>
+                                <td>PARTIAL</td>
+                                <td>SL</td>
+                                <td>TP</td>
+                                <td>SWAP</td>
+                                <td>LTP</td>
+                                <td>PROFIT</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>961</td>
+                                <td>2024-06-17 13:25:28</td>
+                                <td>AUDCAD</td>
+                                <td><span class='order-sell'>SELL</span></td>
+                                <td>0.01</td>
+                                <td>0.90658</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>0</td>
+                                <td>0.90695</td>
+                                <td class='text-danger'>-0.27</td>
+                            </tr>
+                            <tr>
+                                <td>962</td>
+                                <td>2024-06-17 13:25:28</td>
+                                <td>AUDCAD</td>
+                                <td><span class='order-buy'>BUY</span></td>
+                                <td>0.01</td>
+                                <td>0.90658</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>0</td>
+                                <td>0.90695</td>
+                                <td class='text-danger'>-0.12</td>
+                            </tr>
+                            <tr>
+                                <td>963</td>
+                                <td>2024-06-17 13:25:28</td>
+                                <td>AUDCAD</td>
+                                <td><span class='order-buy'>BUY</span></td>
+                                <td>0.01</td>
+                                <td>65713.30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>0</td>
+                                <td>65713.30</td>
+                                <td class='text-danger'>-1.03</td>
+                            </tr>
+                            <tr>
+                                <td>964</td>
+                                <td>2024-06-17 13:25:28</td>
+                                <td>AUDCAD</td>
+                                <td><span class='order-buy'>BUY</span></td>
+                                <td>0.1</td>
+                                <td>2.742</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>0</td>
+                                <td>2.728</td>
+                                <td class='text-danger'>-1.40</td>
+                            </tr>
+                            <tr>
+                                <td>965 </td>
+                                <td>2024-06-17 13:25:28</td>
+                                <td>AUDCAD</td>
+                                <td><span class='order-sell'>SELL</span></td>
+                                <td>0.01</td>
+                                <td>2324.61</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>0</td>
+                                <td>2324.44</td>
+                                <td class='text-primary'>&nbsp;0.17</td>
+                            </tr>
+                            <tr class="bottom-report">
+                                <td class="total-container" colspan="11">
+                                    <span class="topics border-end border-black ">Balance:<span
+                                            class="fw-bold text-primary">816.12</span></span>
+                                    <span class="topics border-end border-black ">Equity:<span
+                                            class="fw-bold  text-primary">813.47</span></span>
+                                    <span class="topics border-end border-black ">Used Margin:<span
+                                            class="fw-bold  text-primary">28.61</span></span>
+                                    <span class="topics border-end border-black ">Free Margin:<span
+                                            class="fw-bold  text-primary">784.86</span></span>
+                                    <span class="topics">Margin Level:<span
+                                            class="fw-bold  text-primary">2843.31%</span></span>
+                                </td>
+                                <td class="text-danger fw-bold">-2.65</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td class="footer-text" colspan="12">No Order(s) Found</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
